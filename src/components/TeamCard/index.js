@@ -5,12 +5,12 @@ const TeamCard = props => {
   const {teamImageUrl, name, id} = teamdetails
   return (
     <li>
-    <Link to={`/team-matches/${id}`}>
-      <div>
-        <img src={teamImageUrl} alt={name} />
-        <p>{name}</p>
-      </div>
-    </Link>
+      <Link to={`/team-matches/${id}`}>
+        <div>
+          <img src={teamImageUrl} alt={name} />
+          <p>{name}</p>
+        </div>
+      </Link>
     </li>
   )
 }
