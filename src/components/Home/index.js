@@ -9,6 +9,7 @@ class Home extends Component {
   componentDidMount() {
     this.getTeamcards()
   }
+ 
   getTeamcards = async () => {
     const response = await fetch('https://apis.ccbp.in/ipl')
     const data = await response.json()
@@ -32,7 +33,7 @@ class Home extends Component {
           <h1>IPL Dashboard</h1>
         </div>
         {isLoading ? (
-          <div testid="loader">
+          <div data-testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
