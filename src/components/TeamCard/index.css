@@ -1,1 +1,37 @@
-/* Write your CSS here */
+.team-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.team-card {
+  background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  border-color: #ff6b35;
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+}
+
+.team-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

@@ -1,1 +1,41 @@
-/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.not-found-title {
+  font-size: 3rem;
+  color: #ff6b35;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.not-found-message {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 30px;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.back-link {
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #4a90e2;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #4a90e2;
+  color: #ffffff;
+  transform: translateY(-2px);
+}

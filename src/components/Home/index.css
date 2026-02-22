@@ -1,1 +1,40 @@
-/* Write your CSS here */
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ipl-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ipl-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.ipl-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff6b35;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.teams-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
